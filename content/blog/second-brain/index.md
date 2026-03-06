@@ -1,138 +1,67 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
-date: 2023-10-26
+title: Building Your Personal Travel Knowledge Base
+summary: How to use iPlaces as your personal travel journal and knowledge base for all the places you've visited and want to visit.
+date: 2024-02-25
 authors:
   - admin
 tags:
-  - Second Brain
-  - Markdown
+  - Tips
+  - Travel Journal
+  - Collections
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Build your personal travel knowledge base'
 ---
 
-Create a personal knowledge base and share your knowledge with your peers.
+Every traveler accumulates a wealth of knowledge — favorite restaurants, scenic viewpoints, that perfect coffee shop in a side street. iPlaces helps you organize all of this into your personal travel knowledge base.
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+## Why Keep a Travel Knowledge Base?
 
-Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
+Most travel memories fade with time. That amazing restaurant you found in Barcelona? The name escapes you a year later. The scenic overlook on that mountain road? You can't quite remember which turn to take.
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+A personal travel knowledge base on iPlaces ensures you never lose these precious discoveries.
 
-## Mindmaps
+## How to Get Started
 
-Hugo Blox supports a Markdown extension for mindmaps.
+### Create Collections
 
-With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
+Organize your places into themed collections:
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+- **"Best Coffee Spots"** — your favorite cafes around the world
+- **"Sunset Views"** — places with unforgettable sunset views
+- **"Kid-Friendly"** — places perfect for family travel
+- **"Budget Eats"** — affordable restaurants that don't compromise on taste
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+### Add Detailed Notes
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+For each place you save, add personal notes:
 
-renders as
+- What you loved about it
+- Best time to visit
+- How to get there
+- What to order (for restaurants)
+- Insider tips that aren't in guides
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
+### Tag and Categorize
 
-Anh here's a more advanced mindmap with formatting, code blocks, and math:
+Use tags to make your places easy to find later:
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
-</code>
-</pre>
-</div>
+- By country or city
+- By type (restaurant, viewpoint, museum, etc.)
+- By mood (romantic, adventurous, relaxing)
+- By season (summer, winter, rainy season)
 
-renders as
+## Share Selectively
 
-```markmap
-- Mindmaps
-  - Links
-    - [Hugo Blox Docs](https://docs.hugoblox.com/)
-    - [Discord Community](https://discord.gg/z8wNYzb)
-    - [GitHub](https://github.com/HugoBlox/hugo-blox-builder)
-  - Features
-    - Markdown formatting
-    - **inline** ~~text~~ *styles*
-    - multiline
-      text
-    - `inline code`
-    -
-      ```js
-      console.log('hello');
-      console.log('code block');
-      ```
-    - Math: $x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
-```
+You can keep your collections private or share them with:
 
-## Highlighting
+- **Friends and family** planning trips to places you know
+- **The iPlaces community** to help fellow explorers
+- **Social media** to inspire others
 
-<mark>Highlight</mark> important text with `mark`:
+## From Knowledge Base to Trip Plan
 
-```html
-<mark>Highlighted text</mark>
-```
+The best part? When you're planning a new trip to a place you've cataloged, you already have a head start. Pull from your personal knowledge base to create itineraries instantly.
 
-## Callouts
+> "The real voyage of discovery consists not in seeking new landscapes, but in having new eyes." — Marcel Proust
 
-Use [callouts](https://docs.hugoblox.com/reference/markdown/#callouts) (aka _asides_, _hints_, or _alerts_) to draw attention to notes, tips, and warnings.
-
-By wrapping a paragraph in `{{%/* callout note */%}} ... {{%/* /callout */%}}`, it will render as an aside.
-
-```markdown
-{{%/* callout note */%}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{%/* /callout */%}}
-```
-
-renders as
-
-{{% callout note %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-Or use the `warning` callout type so your readers don't miss critical details:
-
-{{% callout warning %}}
-A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
-{{% /callout %}}
-
-## Did you find this page helpful? Consider sharing it 🙌
+Start building your travel knowledge base today and never lose a travel memory again.

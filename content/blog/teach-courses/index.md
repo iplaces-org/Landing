@@ -1,143 +1,69 @@
 ---
-title: 👩🏼‍🏫 Teach academic courses
-summary: Embed videos, podcasts, code, LaTeX math, and even test students!
-date: 2023-10-24
-math: true
+title: Sustainable Travel - How to Explore Responsibly
+summary: Tips and practices for sustainable travel that help preserve the amazing places we love to visit.
+date: 2024-01-28
 authors:
   - admin
 tags:
-  - Hugo
-  - Hugo Blox Builder
-  - Markdown
+  - Sustainable Travel
+  - Tips
+  - Community
 image:
-  caption: 'Embed rich media such as videos and LaTeX math'
+  caption: 'Travel responsibly and sustainably'
 ---
 
-[Hugo Blox Builder](https://hugoblox.com) is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.
+As explorers, we have a responsibility to protect the places we love. Sustainable travel isn't about sacrificing experiences — it's about making choices that preserve these destinations for future generations.
 
-**Embed videos, podcasts, code, LaTeX math, and even test students!**
+## Why Sustainable Travel Matters
 
-On this page, you'll find some examples of the types of technical content that can be rendered with Hugo Blox.
+Tourism is one of the world's largest industries, and while it brings economic benefits, it can also cause environmental damage, cultural erosion, and overcrowding if not managed responsibly.
 
-## Video
+At iPlaces, we believe that every traveler can make a difference. Here's how.
 
-Teach your course by sharing videos with your students. Choose from one of the following approaches:
+## Practical Tips for Sustainable Travel
 
-{{< youtube D2vj0WcvH5c >}}
+### Choose Wisely
 
-**Youtube**:
+- **Visit off-season**: Reduce overcrowding and get a more authentic experience
+- **Stay longer in fewer places**: Deep exploration beats surface-level hopping
+- **Support local businesses**: Choose locally-owned accommodations and restaurants
 
-    {{</* youtube w7Ft2ymGmfc */>}}
+### Reduce Your Footprint
 
-**Bilibili**:
+- **Use public transit**: Trains, buses, and bikes over rental cars when possible
+- **Minimize single-use plastics**: Carry a reusable water bottle and shopping bag
+- **Offset your carbon**: Consider carbon offset programs for flights
 
-    {{</* bilibili id="BV1WV4y1r7DF" */>}}
+### Respect Local Culture
 
-**Video file**
+- **Learn basic phrases** in the local language
+- **Ask before photographing** people or sacred sites
+- **Follow local customs** and dress codes
+- **Buy local crafts** directly from artisans, not mass-produced souvenirs
 
-Videos may be added to a page by either placing them in your `assets/media/` media library or in your [page's folder](https://gohugo.io/content-management/page-bundles/), and then embedding them with the _video_ shortcode:
+### Protect Nature
 
-    {{</* video src="my_video.mp4" controls="yes" */>}}
+- **Stay on marked trails** to prevent erosion
+- **Never disturb wildlife** or remove natural objects
+- **Leave no trace**: Pack out everything you bring in
+- **Choose eco-certified tours** and activities
 
-## Podcast
+## How iPlaces Supports Sustainable Travel
 
-You can add a podcast or music to a page by placing the MP3 file in the page's folder or the media library folder and then embedding the audio on your page with the _audio_ shortcode:
+On iPlaces, we help you travel sustainably by:
 
-    {{</* audio src="ambient-piano.mp3" */>}}
+- Highlighting eco-friendly accommodations and tours
+- Showing crowd levels to help you avoid over-touristed spots
+- Featuring off-the-beaten-path alternatives to popular destinations
+- Partnering with local communities to promote responsible tourism
 
-Try it out:
+## The iPlaces Pledge
 
-{{< audio src="ambient-piano.mp3" >}}
+We encourage all our explorers to take the iPlaces pledge:
 
-## Test students
+1. I will respect the places I visit and the people who live there
+2. I will minimize my environmental impact while traveling
+3. I will support local communities and economies
+4. I will share responsible travel practices with others
 
-Provide a simple yet fun self-assessment by revealing the solutions to challenges with the `spoiler` shortcode:
-
-```markdown
-{{</* spoiler text="👉 Click to view the solution" */>}}
-You found me!
-{{</* /spoiler */>}}
-```
-
-renders as
-
-{{< spoiler text="👉 Click to view the solution" >}} You found me 🎉 {{< /spoiler >}}
-
-## Math
-
-Hugo Blox Builder supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the `math` option in your `config/_default/params.yaml` file.
-
-To render _inline_ or _block_ math, wrap your LaTeX math with `{{</* math */>}}$...${{</* /math */>}}` or `{{</* math */>}}$$...$${{</* /math */>}}`, respectively.
-
-{{% callout note %}}
-We wrap the LaTeX math in the Hugo Blox _math_ shortcode to prevent Hugo rendering our math as Markdown.
-{{% /callout %}}
-
-Example **math block**:
-
-```latex
-{{</* math */>}}
-$$
-\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}
-$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-$$\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
-{{< /math >}}
-
-Example **inline math** `{{</* math */>}}$\nabla F(\mathbf{x}_{n})${{</* /math */>}}` renders as {{< math >}}$\nabla F(\mathbf{x}_{n})${{< /math >}}.
-
-Example **multi-line math** using the math linebreak (`\\`):
-
-```latex
-{{</* math */>}}
-$$f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}$$
-{{</* /math */>}}
-```
-
-renders as
-
-{{< math >}}
-
-$$
-f(k;p_{0}^{*}) = \begin{cases}p_{0}^{*} & \text{if }k=1, \\
-1-p_{0}^{*} & \text{if }k=0.\end{cases}
-$$
-
-{{< /math >}}
-
-## Code
-
-Hugo Blox Builder utilises Hugo's Markdown extension for highlighting code syntax. The code theme can be selected in the `config/_default/params.yaml` file.
-
-
-    ```python
-    import pandas as pd
-    data = pd.read_csv("data.csv")
-    data.head()
-    ```
-
-renders as
-
-```python
-import pandas as pd
-data = pd.read_csv("data.csv")
-data.head()
-```
-
-## Inline Images
-
-```go
-{{</* icon name="python" */>}} Python
-```
-
-renders as
-
-{{< icon name="python" >}} Python
-
-## Did you find this page helpful? Consider sharing it 🙌
+Together, we can ensure that the amazing places we discover today remain amazing for generations to come.
